@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<!--pagination: Define la estructura básica de la paginación en Bootstrap. 
+    page-item: Utilizada para representar un elemento individual de la paginación, como un botón de página o un indicador de página activa o inactiva.
+    page-link: Utilizada para los enlaces de página dentro de un elemento de paginación. Define el estilo del enlace y maneja la funcionalidad de navegación entre páginas. -->
+    <div class="container mt-3">
+        <ul class="pagination">
+            <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+        </ul>
+    </div>
+    
+    <hr>
+
+    <!--pagination-lg: para cambiar el tamanio de la paginacion (puede ser: sm, md y lg)-->
+    <div class="container mt-3">
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!--active: para indicar qué página está actualmente seleccionada
+        disabled: para indicar que no está disponible o no se puede interactuar con él en ese momento.
+        Por ejemplo, puedes desactivar un botón de "Siguiente" en la paginación cuando ya estás en la última página.-->
+    <div class="container mt-3">
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item active"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item disabled"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!--justify-content-center: para colocar nuestra paginacion al principio, centro o al final (start, center, end)-->
+    <div class="container mt-3">
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item active"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item disabled"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+        </ul>
+    </div>
+</body>
+</html>
