@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        card: para crear contenedores flexibles que pueden contener diversos tipos de contenido, como texto, imágenes, etc
+        card-body: se utiliza para el cuerpo de la tarjeta, donde colocas el contenido principal
+        card-title: se utiliza para el título de la tarjeta
+        card-text: se utiliza para el texto de la tarjeta
+        card-link: se utiliza para enlaces dentro de la tarjeta
+        card-img-top: se utiliza para colocar una imagen en la parte superior de una tarjeta
+    -->
+    <div class="container my-3">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Titulo de la tarjeta</h1>
+                <p class="card-text">Texto de la tarjeta</p>
+                <a class="card-link" href="#">Link 1</a>
+                <a class="card-link" href="#">Link 2</a>
+                <a class="card-link" href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3 col-4"> <!--col-4: con esto lo centramos-->
+        <div class="card text-center" style="width: 400px;">
+            <img class="card-img-top" src="./imagenes/switch-2-doble.1699621509.7023.jpeg" style="width: 100%">
+            <h1 class="card-title">Titulo de la tarjeta</h1>
+            <p class="card-text">Texto de la tarjeta</p>
+            <button class="btn btn-success">Comprar</button>
+        </div>
+    </div>
+    
+</body>
+</html>
